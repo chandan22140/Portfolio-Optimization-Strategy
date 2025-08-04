@@ -22,8 +22,8 @@ Maximize the Sharpe ratio using rebalancing-based trading strategies on historic
 ```
 
 portfolio-optimizer/
-├── data/                # CSV price data (e.g., Prices.csv)
-├── src/                 # Main source code
+├── Prices.csv           # CSV price data (e.g., Prices.csv)
+├── trading_strategy.py  # Main source code
 ├── README.md            # This file
 ├── requirements.txt     # Python dependencies
 
@@ -43,12 +43,12 @@ portfolio-optimizer/
    pip install -r requirements.txt
    ```
 
-3. Place the `Prices.csv` file in the `data/` folder.
+3. Place the `Prices.csv` file in the project folder.
 
 4. Run the backtest:
 
    ```bash
-   python src/trading_strategy.py
+   python trading_strategy.py
    ```
 
 ## 📊 Key Outputs
